@@ -1,0 +1,138 @@
+<html>
+
+<head>
+       <style>
+              body {
+                     background-image: linear-gradient(green, pink);
+              }
+
+              * {
+                     box-sizing: border-box;
+              }
+
+              #heading {
+                     background-color: lightblue;
+                     color: black;
+                     width: 400px;
+                     height: 100px;
+                     font-size: 13px;
+                     text-decoration: none;
+                     text-transform: uppercase;
+                     font-family: "algerian";
+                     border-radius: 25px;
+                     border: 3px solid brown;
+                     padding: 15px 10px;
+                     animation: t 5s infinite;
+              }
+
+              @keyframes t {
+                     from {
+                            background-color: gold;
+                     }
+
+                     to {
+                            background-color: red;
+                     }
+              }
+
+              #v1 {
+                     background-color: lightpink;
+                     border: 3px solid yellow;
+                     padding: 2%;
+                     color: black;
+                     width: 500px;
+                     height: 650px;
+                     overflow: auto;
+              }
+
+              #v2 {
+                     background-color: lightblue;
+                     color: blue;
+                     width: 80px;
+                     height: 30px;
+                     padding: center;
+                     border-radius: 20px;
+              }
+
+              #v2:hover {
+                     background-color: yellow;
+                     color: darkblue;
+              }
+
+              #pagination {
+                     display: inline-block;
+              }
+
+              #pagination a {
+                     background-color: grey;
+                     color: violet;
+                     width;
+                     200px height: 50px;
+                     padding: 8px 16px;
+                     border-radius: 20px;
+              }
+
+              #pagination a:hover {
+                     background-color: violet;
+                     color: grey;
+              }
+       </style>
+</head>
+
+<body>
+       <form>
+              <center>
+                     <div id="heading">
+                            <h1>order your dress</h1>
+                     </div><br>
+                     <div id="v1">
+                            <table border=5 cellpadding=15 cellspacing=7>
+                                   <tr>
+                                          <td>Name</td>
+                                          <td><input type="text" name="a1" required></td>
+                                   </tr>
+                                   <tr>
+                                          <td>Dress Model</td>
+                                          <td><select name="a2">
+                                                        <option value="Sharies">Sharies</option>
+                                                        <option value="T-shirts">T-shirts</option>
+                                                        <option value="Pants">Pants</option>
+                                                        <option value="Shirts">Shirts</option>
+                                                 </select>
+                                   </tr>
+                                   <tr>
+                                          <td>Quantity</td>
+                                          <td><input type="number" name="a3"></td>
+                                   </tr>
+                                   <tr>
+                                          <td>Date</td>
+                                          <td><input type="date" name="a3">
+                                   </tr>
+                                   <tr>
+                                          <td>Email</td>
+                                          <td><input type="text" name="a5" required></td>
+                                   </tr>
+                                   <tr>
+                                          <td>Cell Number</td>
+                                          <td><select name="a6">
+                                                        <option value="+91">+91</option>
+                                                 </select>
+                                                 <input type="number" name="a7" required>
+                                          </td>
+                                   </tr>
+                                   <tr>
+                                          <td>Address</td>
+                                          <td><textarea cols=30 rows=10></textarea>
+                            </table>
+                     </div><br>
+                     <div id="v2">
+                            <input type="submit" value="Submit" name="a8" id="v2">
+                     </div><br>
+                     <div id="pagination">
+                            <a href="d:/v projects/css project/gallery.html">Next page &raquo;</a>
+                     </div>
+       </form>
+       </center>
+</body>
+
+</html>

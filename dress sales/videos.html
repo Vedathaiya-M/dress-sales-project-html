@@ -1,0 +1,122 @@
+<html>
+
+<head>
+    <style>
+        body {
+            background-image: linear-gradient(grey, green);
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .heading {
+            background-color: lightblue;
+            color: black;
+            width: 400px;
+            height: 100px;
+            font-size: 13px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-family: "algerian";
+            border-radius: 25px;
+            border: 3px solid brown;
+            padding: 15px 10px;
+            text-align: center;
+            animation: t 5s infinite;
+        }
+
+        @keyframes t {
+            from {
+                background-color: red;
+            }
+
+            to {
+                background-color: blue;
+            }
+        }
+
+        div.video {
+            color: black;
+            margin: 10px;
+            border: 1px solid black;
+            float: left;
+            width: 250px;
+            height: 250px;
+        }
+
+        div.video:hover {
+            border: 2px solid red;
+            color: white;
+        }
+
+        div.desc {
+            padding: 14px;
+            text-align: center;
+        }
+
+        #pagination {
+            display: inline-block;
+        }
+
+        #pagination a {
+            background-color: grey;
+            color: violet;
+            width;
+            200px;
+            height: 50px;
+            padding: 8px 16px;
+            border-radius: 20px;
+            text-indent: 200px;
+        }
+
+        #pagination a:hover {
+            background-color: violet;
+            color: grey;
+        }
+    </style>
+</head>
+<form>
+
+    <body>
+        <center>
+            <div class="heading">
+                <h1>Videos</h1>
+            </div><br><br><br><br>
+            <div class="video">
+                <a target="_blank" href="d:/v projects/css project/sharie.mp4">
+                    <video width=200 height=200 controls>
+                        <source src="d:/v projects/css project/sharie.mp4">
+                </a>
+                <div class="desc">Sharie</div>
+            </div>
+            <div class="video">
+                <a target="_blank" href="d:/v projects/css project/pant.mp4">
+                    <video width=200 height=200 controls>
+                        <source src="d:/v projects/css project/pant.mp4">
+                </a>
+                <div class="desc">Pant</div>
+            </div>
+            <div class="video">
+                <a target="_blank" href="d:/v projects/css project/t-shirt.mp4">
+                    <video width=200 height=200 controls>
+                        <source src="d:/v projects/css project/t-shirt.mp4">
+                </a>
+                <div class="desc">T-Shirt</div>
+            </div>
+            <div class="video">
+                <a target="_blank" href="d:/v projects/css project/shirt.mp4">
+                    <video width=200 height=200 controls>
+                        <source src="d:/v projects/css project/shirt.mp4">
+                </a>
+                <div class="desc">Shirt</div>
+            </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <div id="pagination">
+                <a href="d:/v projects/css project/dress sales.html">&laquo Back to Home </a>
+            </div>
+            </video>
+        </center>
+    </body>
+</form>
+
+</html>
